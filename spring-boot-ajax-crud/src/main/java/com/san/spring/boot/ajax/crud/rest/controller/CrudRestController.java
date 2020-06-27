@@ -1,7 +1,9 @@
-package com.roytuts.spring.boot.ajax.crud.rest.controller;
+package com.san.spring.boot.ajax.crud.rest.controller;
 
 import java.util.List;
 
+import com.san.spring.boot.ajax.crud.entity.Company;
+import com.san.spring.boot.ajax.crud.service.CrudService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,9 +14,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.roytuts.spring.boot.ajax.crud.entity.Company;
-import com.roytuts.spring.boot.ajax.crud.service.CrudService;
 
 @RestController
 @CrossOrigin(origins = "*")

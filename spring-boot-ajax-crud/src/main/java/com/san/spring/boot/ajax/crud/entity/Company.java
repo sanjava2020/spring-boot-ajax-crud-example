@@ -1,4 +1,4 @@
-package com.roytuts.spring.boot.ajax.crud.entity;
+package com.san.spring.boot.ajax.crud.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

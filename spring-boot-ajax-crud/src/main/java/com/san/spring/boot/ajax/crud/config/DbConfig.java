@@ -1,4 +1,4 @@
-package com.roytuts.spring.boot.ajax.crud.config;
+package com.san.spring.boot.ajax.crud.config;
 
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
