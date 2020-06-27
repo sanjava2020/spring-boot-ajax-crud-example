@@ -1,0 +1,4 @@
+# Project exclude paths
+/spring-boot-ajax-crud/.gradle/
+/spring-boot-ajax-crud/build/
+/spring-boot-ajax-crud/build/classes/java/main/
